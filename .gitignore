@@ -1,0 +1,19 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Editor
+.vscode/
+
+# Training artifacts
+out/
+checkpoints/
+*.log
+*.pth
+
+# Dataset artifacts (generated data)
+dataset/*.jsonl
+dataset/*_stats.json
+
+# OS
+.DS_Store
